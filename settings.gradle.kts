@@ -1,0 +1,1 @@
+rootProject.name = "long-security-spring-boot-starter"
