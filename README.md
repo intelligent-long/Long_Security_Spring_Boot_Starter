@@ -10,7 +10,7 @@ public interface SecurityUser {
 ```
 ```java
 public interface SecuritySessionProvider {
-    SecurityUser getUserOfSession(HttpSession var1);
+    SecurityUser getUserOfSession(HttpSession session);
 }
 ```
 2. 配置 Security
