@@ -22,7 +22,7 @@ public class SecurityConfig {
         accessPolicyMapper
                 .antMatch("/ws")
                 .permitAll()
-                .antMatch("/auth")
+                .antMatch("/auth/**")
                 .permitAll()
                 .antMatch("/url/**")
                 .permitAll()
